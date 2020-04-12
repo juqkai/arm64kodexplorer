@@ -1,7 +1,7 @@
 FROM php:7.3.6-zts-alpine3.9
 LABEL maintainer="xaljer@outlook.com"
 
-ARG KODEXPLORER_VERSION=4.40
+ARG KODEXPLORER_VERSION=4.39
 ARG KODEXPLORER_URL="https://github.com/kalcaddle/KodExplorer/archive/${KODEXPLORER_VERSION}.tar.gz"
 
 RUN set -x \
